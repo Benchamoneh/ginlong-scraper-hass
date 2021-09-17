@@ -1,6 +1,6 @@
 # ginlong-scraper-hass
 
-A HACS integration that scrapes PV statistics from the Ginlong (Solis) monitor pages and outputs it to influxdb, pvoutput or mqtt (default). Using MQTT you can then create XXX in Home Assistant to track your energy usage. I have used this for a Solis inverter but there is a possibility it also works with the following inverters: Omnik Solar, Solarman and Trannergy Inverters.
+A HACS integration that scrapes PV statistics from the Ginlong (Solis) monitor pages and outputs it to MQTT (default), InfluxDB or PVOutput. Using MQTT you can then create sensors in Home Assistant to track your energy usage. I have used this for a Solis inverter but there is a possibility it also works with the following inverters: Omnik Solar, Solarman and Trannergy Inverters.
 
 This is a fork of the excellent ginlong-scraper by dkruyt: https://hub.docker.com/repository/docker/dkruyt/ginlong-scraper
 
